@@ -149,7 +149,7 @@ def edit_pdf():
 
 @app.route("/")  # Ana sayfa rotası
 def home():
-    return render_template("index.html")  # index.html dosyanız yüklenecek.
+    return render_template("index.html")  # index.html dosyanız yüklenecektir.
 
 if __name__ == '__main__':
     app.run(debug=True)
